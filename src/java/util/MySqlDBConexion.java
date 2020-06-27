@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class MySqlDBConexion {
 
-	private static ResourceBundle rb = ResourceBundle.getBundle("database");
+	private static ResourceBundle rb = ResourceBundle.getBundle("database", Locale.ENGLISH);
 
 	static {
 		try {
